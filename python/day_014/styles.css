@@ -1,0 +1,39 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.player_area{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.objects_container {
+    display: flex;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.object_button {
+    height: 200px;
+    width: 200px;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+#player_1 .object_button svg {
+    fill: red;
+}
+#player_2 .object_button svg {
+    fill: blue;
+}
