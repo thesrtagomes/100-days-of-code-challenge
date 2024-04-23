@@ -6,7 +6,13 @@ html, body{
 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
     height: 100%;
+}
+
+main h1 {
+    grid-column: 1 / 3;
+    text-align: center;
 }
 
 .player_area{
