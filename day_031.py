@@ -20,7 +20,7 @@ title = (colorize("=","red") +
     colorize("=","red"))
 next = "NEXT"  
 pause = "PAUSE"  
-print(f"{title:^105}",sep="")
+print(f"{title:^230}",sep="")
 print()
 print('🔥▶️    Radio Gaga')
 print(f'       {colorize("Queen", "yellow")}')
